@@ -32,7 +32,7 @@ function fetchMailbox()
         "件名: " + mail.getSubject();
     var plainBody = mail.getPlainBody();
     
-    var link = "https://mail.google.com/mail/u/1/#inbox/" + mail.getId() + "&openExternalBrowser=1";
+    var link = "https://mail.google.com/mail/#inbox/" + mail.getId();
     var message = 
       date + "\n" +
       from + "\n\n" +
