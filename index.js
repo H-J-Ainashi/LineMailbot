@@ -61,7 +61,7 @@ server.post('/linebot/webhook', line.middleware(line_config), (req, res, next) =
             events_processed.push(bot.replyMessage(event.replyToken, {
                 type: "text",
                 text: "以下のリンクをタップ（クリック）してください。\n" +
-                    "https://mail.google.com/mail/u/1/#search/" + event.message.text
+                    "https://mail.google.com/mail/#search/" + event.message.text
             }));
 
         }
