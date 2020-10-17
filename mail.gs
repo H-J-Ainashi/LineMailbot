@@ -2,7 +2,7 @@ function fetchMailbox()
 {
   
   // 取得間隔
-  var get_interval = 5;
+  var get_interval = 3600;
   
   // 取得間隔
   var now_time = Math.floor(new Date().getTime() / 1000);
@@ -30,13 +30,21 @@ function fetchMailbox()
         mail.getFrom() + "からのメールです。";
     var subtitle = 
         "件名: " + mail.getSubject();
-    var plainBody = mail.getPlainBody();
+    var plainBodybuf = mail.getPlainBody();
+    var plainBody = "";
+    if (plainBodybuf.length > 18)
+    {
+      plainBody = plainBodybuf.substr(0, 17) + "...";
+    }else
+    {
+      plainBody = plainBody;
+    }
     
     var link = "https://mail.google.com/mail/#inbox/" + mail.getId();
     var message = 
       date + "\n" +
       from + "\n\n" +
-      subtitle + "\n\n" +
+      subtitle + "\n" +
       plainBody + "\n" +
       link;
     
