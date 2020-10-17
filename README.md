@@ -39,3 +39,12 @@
 　今までWeb系のプログラムを書いたことがなかったから、新たな開拓をできたという意味で私はいい機会を手に入れたと思っている。</br>
 　思ってはいるが、公開まで持って行けたならもっとよかっただろうと思うところが多い。今度からは大学での授業がない休暇期間のイベントに絞って参加したい。</br>
 　また、今回、目的の半分としてあったチーム開発の経験が得られたかと言われるとそうではないので、もう一度チーム開発に必要なものを学びなおしたいと思った。
+
+## 参考にした（したかったけど使う以前の問題にぶつかっていたモノも含む）Qiita記事一覧
+　私自身の基礎知識のなさが鮮明に出ていると思います。Qiita以外を含めるとMessanger APIドキュメントなどがあるが、追いつけないのでとりあえず追跡可能なQiitaだけ。
+* [LINEのBot開発 超入門（前編） ゼロから応答ができるまで](https://qiita.com/nkjm/items/38808bbc97d6927837cd)
+* [LINEのBot開発 超入門（後編） メッセージの内容と文脈を意識した会話を実現する](https://qiita.com/nkjm/items/4de41988969e6f17adcb)
+* [Google Apps ScriptでLINE BOTつくったら30分で動かせた件](https://qiita.com/hakshu/items/55c2584cf82718f47464)
+* [Google Apps Scriptで、同一プロジェクト内で分割された.gsファイルの関数を使う方法](https://qiita.com/shirakiya/items/5e51e352faef6f7db9be)
+* [GoogleAppsScriptでSQLっぽくDBを扱えるライブラリを作りました。](https://qiita.com/roana0229/items/fea931fcabc57f193620)
+* [Google Apps Script で Gmail Add-on を作ってみよう](https://qiita.com/wezardnet/items/9d19ab6dcac7ccae00db)
