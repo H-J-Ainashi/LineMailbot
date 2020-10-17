@@ -2,7 +2,7 @@ function fetchMailbox()
 {
   
   // 取得間隔
-  var get_interval = 3600;
+  var get_interval = 5;
   
   // 取得間隔
   var now_time = Math.floor(new Date().getTime() / 1000);
